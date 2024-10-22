@@ -22,23 +22,36 @@
         </header>
         <main>
             <section class="hero">
-                <img class="hero__img" src="./images/hero-mobile.jpg" alt="Lovely girl" />
-                <h1 class="hero__header">
-                    <span class="hero__header--accent">We're </span>coming soon
-                </h1>
-                <p class="hero__description">
-                    Hello fellow shoppers! We're currently building our new fashion store. Add your
-                    email below to stay up-to-date with announcements and our launch deals.
-                </p>
+                <picture>
+                    <source media="(max-width: 760px)" srcset="./images/hero-mobile.jpg" />
+                    <source media="(min-width: 761px)" srcset="./images/hero-desktop.jpg" />
+                    <img src="./images/hero-mobile.jpg" alt="pretty girl" style="width: 100%" />
+                </picture>
 
-                <form action="" class="hero__form">
-                    <img class="hero__form--error" src="./images/icon-error.svg" alt="error icon" />
-                    <input class="hero__form--input" type="text" placeholder="Email Address" />
-                    <button class="hero__form--button">
-                        <img src="./images/icon-arrow.svg" alt="button image" />
-                    </button>
-                </form>
-                <p class="hero__form--error-label">Please provide a valid email</p>
+                <div class="hero__style-wrapper">
+                    <h1 class="hero__header">
+                        <span class="hero__header--accent">We're </span>coming soon
+                    </h1>
+                    <p class="hero__description">
+                        Hello fellow shoppers! We're currently building our new fashion store. Add
+                        your email below to stay up-to-date with announcements and our launch deals.
+                    </p>
+
+                    <form action="" class="hero__form">
+                        <input class="hero__form--input" type="text" placeholder="Email Address" />
+                        <!-- <div class="form__button-style"> -->
+                        <img
+                            class="hero__form--error"
+                            src="./images/icon-error.svg"
+                            alt="error icon"
+                        />
+                        <button class="hero__form--button">
+                            <img src="./images/icon-arrow.svg" alt="button image" />
+                        </button>
+                        <!-- </div> -->
+                    </form>
+                    <p class="hero__form--error-label">Please provide a valid email</p>
+                </div>
             </section>
         </main>
     </body>
