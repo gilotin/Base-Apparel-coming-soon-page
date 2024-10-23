@@ -17,17 +17,16 @@
     </head>
 
     <body>
-        <header>
-            <div class="logo"><img src="./images/logo.svg" alt="" /></div>
-        </header>
         <main>
+            <div class="logo">
+                <img class="logo__img" src="./images/logo.svg" alt="" />
+            </div>
+            <picture class="hero__image">
+                <source media="(max-width: 760px)" srcset="./images/hero-mobile.jpg" />
+                <source media="(min-width: 761px)" srcset="./images/hero-desktop.jpg" />
+                <img src="./images/hero-mobile.jpg" alt="pretty girl" style="width: 100%" />
+            </picture>
             <section class="hero">
-                <picture>
-                    <source media="(max-width: 760px)" srcset="./images/hero-mobile.jpg" />
-                    <source media="(min-width: 761px)" srcset="./images/hero-desktop.jpg" />
-                    <img src="./images/hero-mobile.jpg" alt="pretty girl" style="width: 100%" />
-                </picture>
-
                 <div class="hero__style-wrapper">
                     <h1 class="hero__header">
                         <span class="hero__header--accent">We're </span>coming soon
