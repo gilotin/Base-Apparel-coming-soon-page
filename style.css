@@ -193,6 +193,13 @@
         right: 49%;
         border-radius: 3rem;
         padding: 1.35rem 3rem;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .hero__form--button:hover {
+        background: hsl(0deg 70.91% 89.22%);
+        cursor: pointer;
+        box-shadow: 0.3rem .7rem 1rem lightgray;
     }
 
     .hero__form--error {
