@@ -107,8 +107,14 @@
 .hero__form--error-label {
     padding: .2rem 13%;
     font-size: .8rem;
+    color: white
+}
+
+
+.active {
+    padding: .2rem 13%;
+    font-size: .8rem;
     color: var(--soft-red);
-    display: none;
 }
 
 @media(min-width:1440px) {
@@ -134,6 +140,7 @@
         width: 60%;
         padding: 0;
         margin-bottom: 2.25rem;
+
     }
 
     .logo__img {
@@ -143,6 +150,11 @@
 
     .hero__image {
         grid-area: img;
+
+        & img {
+            height: 100vh;
+        }
+
     }
 
     .hero {
@@ -172,13 +184,13 @@
 
 
     .hero__form--input {
-        width: 100%;
+        width: 550px;
         padding: 1.25rem;
         font-size: 1.25rem;
     }
 
     .hero__form--button {
-        left: 40%;
+        right: 49%;
         border-radius: 3rem;
         padding: 1.35rem 3rem;
     }
@@ -187,6 +199,11 @@
         right: 20%;
         height: 25px;
         width: 25px;
+    }
+
+    .hero__form--error-label {
+        margin-top: .5rem;
+        padding: .2rem 7%;
     }
 
 
