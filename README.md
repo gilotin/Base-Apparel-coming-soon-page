@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://base-apparel-coming-soon-page-nine-beryl.vercel.app/)
+-   Solution URL: [Frontend Mentor ](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-solution-xIQjrfBS1O)
+-   Live Site URL: [Vercel page](https://base-apparel-coming-soon-page-nine-beryl.vercel.app/)
 
 ## My process
 
