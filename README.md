@@ -64,8 +64,7 @@ In this project for the first time i was using Picture tag and dynamic image cha
 To see how you can add code snippets, see below:
 
 ```html
-<picture
-    class="hero__image">                                                               
+<picture class="hero__image">
     <source media="(max-width: 760px)" srcset="./images/hero-mobile.jpg" />
     <source media="(min-width: 761px)" srcset="./images/hero-desktop.jpg" />
     <img src="./images/hero-mobile.jpg" alt="pretty girl" style="width: 100%" />
